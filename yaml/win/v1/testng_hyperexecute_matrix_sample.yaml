@@ -3,10 +3,10 @@ version: 0.1
 runson: win
 
 matrix:
-  tests: ["Test_1", "Test_2"]
+  tests: ["Test_1", "Test_2", "Test_3", "Test_4"]
   browser: ["Chrome", "MicrosoftEdge"]
   version: ["latest"]
-  os: ["win"]
+  os: ["win", "lin"]
 
 runtime:
   language: java
