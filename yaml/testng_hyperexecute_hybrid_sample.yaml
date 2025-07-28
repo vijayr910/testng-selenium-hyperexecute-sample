@@ -9,7 +9,7 @@ concurrency: 40000
 parallelism: 200
 
 matrix:
-  os: [win, linux]
+  os: [win, linux, mac]
 
 env:
   CACHE_DIR: m2
