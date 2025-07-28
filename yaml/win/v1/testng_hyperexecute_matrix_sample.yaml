@@ -6,7 +6,7 @@ matrix:
   tests: ["Test_1", "Test_2", "Test_3", "Test_4"]
   browser: ["Chrome", "MicrosoftEdge"]
   version: ["latest"]
-  os: ["win", "lin"]
+  os: ["win", "linux"]
 
 runtime:
   language: java
