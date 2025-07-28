@@ -5,11 +5,10 @@ testSuiteStep: 150
 
 runson: ${matrix.os}
 autosplit: true
-concurrency: 40000
-parallelism: 200
+concurrency: 1501
 
 matrix:
-  os: [win, linux, mac]
+  os: [win, linux]
 
 env:
   CACHE_DIR: m2
