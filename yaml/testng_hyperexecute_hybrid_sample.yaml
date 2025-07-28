@@ -6,7 +6,7 @@ testSuiteStep: 150
 runson: ${matrix.os}
 autosplit: true
 concurrency: 40000
-parallelism: 1
+parallelism: 200
 
 matrix:
   os: [win, linux]
